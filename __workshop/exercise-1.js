@@ -8,12 +8,12 @@ function question1() {
 
   console.log("1.1. ( )"); /* "I am a "Horse""    */
   console.log("1.2. ( )"); /* "I 'prefer' ducks'  */
-  console.log("1.3. ( )"); /* 'Yes, duck is nice' */
-  console.log("1.4. ( )"); /* "Ah, but I\'m vegan!" */
+  console.log("1.3. (x)"); /* 'Yes, duck is nice' */
+  console.log("1.4. (x)"); /* "Ah, but I\'m vegan!" */
   console.log("1.5. ( )"); /* 'You'll eat salad then' */
-  console.log("1.6. ( )"); /* 'Yes I\'ll eat salad' */
-  console.log("1.7. ( )"); /* "I'm happy to hear that!" */
-  console.log("1.8. ( )"); /* "\"Happy to hear " + 'that" ' + "he says!" */
+  console.log("1.6. (x)"); /* 'Yes I\'ll eat salad' */
+  console.log("1.7. (x)"); /* "I'm happy to hear that!" */
+  console.log("1.8. (x)"); /* "\"Happy to hear " + 'that" ' + "he says!" */
   console.log("1.9. ( )"); /* “Hello world!” */
 }
 
@@ -23,10 +23,10 @@ function question2() {
   // Add an 'x' between the ( ) to indicate that it's true.
 
   console.log("2.1. ( )"); /* 7 == 2    */
-  console.log("2.2. ( )"); /* 7 == 7    */
-  console.log("2.3. ( )"); /* 7 == '7'  */
-  console.log("2.4. ( )"); /* 7 != 0    */
-  console.log("2.5. ( )"); /* 7 !== '7' */
+  console.log("2.2. (x)"); /* 7 == 7    */
+  console.log("2.3. (x)"); /* 7 == '7'  */
+  console.log("2.4. (x)"); /* 7 != 0    */
+  console.log("2.5. (x)"); /* 7 !== '7' */
   console.log("2.6. ( )"); /* 7 != '7'  */
   console.log("2.7. ( )"); /* 7 != 7    */
 }

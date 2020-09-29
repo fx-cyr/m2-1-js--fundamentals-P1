@@ -52,9 +52,15 @@ Put your solution between the ```:
 _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
-// Your solution here!
+4. let sentence = 'Hello world!';
+3. if (sentence.includes('Hello')) {
+2. console.log('Sentence DOES contain the word "Hello"');
+5. } else {
+1. console.log('Sentence DOES NOT contain the word "Hello"');   
+6. }
 
 ```
+
 
 ## Question 2: Get the specified item in the nested array
 
@@ -65,7 +71,11 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const thirdIndex = = 0;
 
 ```
-// Your solution here!
+2. const array = [[1, [2, 3]]];
+1. const firstIndex = 0;
+4. const secondIndex = 1;
+5. const thirdIndex = = 0;
+3. console.log(array[firstIndex][secondindex][thirdIndex])
 
 ```
 

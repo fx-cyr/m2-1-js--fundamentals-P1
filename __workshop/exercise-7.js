@@ -23,6 +23,21 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let hour = 0; hour < 24; hour++) {
+    if (hour === 6 || hour ==12 || hour ==18)
+    {
+      let hourTask = `It's ${hour}h. Time to eat!`
+        console.log(hourTask)
+    }
+    else if (hour > 21 || hour < 6) {
+    let hourTask = `It's ${hour}h. Time to sleep!`
+      console.log(hourTask)
+    }
+    else  {
+    let hourTask = `It's ${hour}h. Time to train!`
+      console.log(hourTask)
+      }
+    }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -30,7 +45,7 @@ function exercise7() {
   //
   //
   //
-  //
+  //22
 }
 
 // Once you are done type the following in the terminal to test your answer(s).

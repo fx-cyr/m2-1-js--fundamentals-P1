@@ -8,7 +8,7 @@ function exercise8() {
   // Write code between the lines (below)
   // -----------------------------------------------------------------
 
-  console.log(`The sum is ${sum}`);
+  console.log("hi");
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
